@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: S3 Gallery
- * Description: Zeigt Bilder aus einem S3-kompatiblen Storage (z. B. OVHCloud).
+ * Description: Display of a gallery of images from an S3-compatible storage
  * Version: 1.0
  * Author: RocketQuackIT
  * License: GPLv2 or later

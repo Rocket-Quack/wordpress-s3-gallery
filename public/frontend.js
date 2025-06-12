@@ -1,4 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Optional JavaScript für interaktive Galerie
+  // TODO
   console.log("Frontend JS geladen.");
 });
