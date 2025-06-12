@@ -4,7 +4,7 @@
  * Description: Displays external image galleries from any S3-compatible storage
  * Version: 1.0.0
  * Author: RocketQuack
- * License: MIT
+ * License: GPLv2 or later
  * Text Domain: s3-gallery
  */
 
