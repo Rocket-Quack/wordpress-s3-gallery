@@ -12,7 +12,7 @@ No need to upload or store images in WordPress – everything loads directly fro
 - ✅ Admin panel to configure credentials, bucket, and endpoint
 - ✅ Automatically lists folders (prefixes) from the bucket
 - ✅ Allows users to select a folder and view all images inside
-- ✅ Frontend gallery via shortcode: `[s3_gallery]`
+- ✅ Embed specific folder contents via shortcode `[s3_gallery folder="your-folder-name"]`
 - ✅ No media files stored in WordPress
 - ✅ Uses AJAX for dynamic loading
 - ✅ Built with performance and simplicity in mind
