@@ -2,8 +2,6 @@ name: Build WordPress Plugin ZIP
 
 on:
   push:
-    branches:
-      - main
     tags:
       - 'v*'
 
