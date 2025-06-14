@@ -34,8 +34,13 @@ function s3_gallery_register_shortcode() {
             echo '<p>Keine Bilder gefunden im Ordner: <code>' . esc_html($prefix) . '</code>.</p>';
         } else {
             echo '<div class="s3-gallery-grid" style="display: flex; flex-wrap: wrap; gap: 10px;">';
-            foreach ($imageUrls as $img) {
-                echo '<img src="' . esc_url($img) . '" style="width: 150px;" />';
+            foreach ($imageUrls as $i => $img) {
+                echo '<div class="s3-image-wrapper">';
+                echo '<div class="s3-img-placeholder"></div>';
+                echo '<a href="#" class="s3-gallery-thumb" data-index="' . $i . '" data-src="' . esc_url($img) . '">';
+                echo '<img src="' . esc_url($img) . '" class="s3-img-loading" loading="lazy" />';
+                echo '</a>';
+                echo '</div>';
             }
             echo '</div>';
         }
