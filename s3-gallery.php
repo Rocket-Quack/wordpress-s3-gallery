@@ -2,7 +2,7 @@
 /**
  * Plugin Name: S3 Gallery
  * Description: Display of a gallery of images from an S3-compatible storage
- * Version: 1.1.0
+ * Version: 1.2.0
  * Author: RocketQuackIT
  * License: GPLv2 or later
  */
